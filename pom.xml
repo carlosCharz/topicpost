@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wedevol</groupId>
-	<artifactId>accessing-data-mysql</artifactId>
+	<artifactId>topicpost</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>topicpost</name>
 	<description>Topic Post Example with MySQL</description>
@@ -39,6 +39,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>topicpost</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
