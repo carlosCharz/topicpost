@@ -9,7 +9,7 @@ import com.wedevol.topicpost.dao.PostRepository;
 import com.wedevol.topicpost.model.Post;
 
 @Controller
-@RequestMapping(path = "/post")
+@RequestMapping(path = "/posts")
 public class PostController {
 
     @Autowired
